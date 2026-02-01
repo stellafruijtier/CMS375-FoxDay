@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register for Fox Day Event</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🦊 Register for Fox Day</h1>
+        <p class="fox-message">Secure your spot at one of our amazing events!</p>
+    </header>
+    
+    <main>
+        <nav class="page-nav">
+            <a href="index.html">Home</a> | 
+            <a href="events.php">View Events</a>
+        </nav>
+        
+        <section class="registration-form">
+            <form action="process.php" method="POST">
+                <div class="form-group">
+                    <label for="student_name">Student Name *</label>
+                    <input type="text" id="student_name" name="student_name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="event">Select an Event *</label>
+                    <select id="event" name="event" required>
+                        <option value="">-- Choose an Event --</option>
+                        <option value="Chamber of Secrets Escape Challenge">Chamber of Secrets Escape Challenge</option>
+                        <option value="The Fox's Horcrux Hunt">The Fox's Horcrux Hunt</option>
+                        <option value="Defense against the Dark Fox">Defense against the Dark Fox</option>
+                        <option value="Quidditch Tournament on Mills">Quidditch Tournament on Mills</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label>Year *</label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="year" value="Freshman" required>
+                            Freshman
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="year" value="Sophomore" required>
+                            Sophomore
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="year" value="Junior" required>
+                            Junior
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="year" value="Senior" required>
+                            Senior
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="house">Select a House *</label>
+                    <select id="house" name="house" required>
+                        <option value="">-- Choose a House --</option>
+                        <option value="Gryffindor">Gryffindor</option>
+                        <option value="Hufflepuff">Hufflepuff</option>
+                        <option value="Ravenclaw">Ravenclaw</option>
+                        <option value="Slytherin">Slytherin</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">What are you most excited about?</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Tell us what you're looking forward to most about Fox Day..."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="secret_promise" value="yes">
+                        I swear I will not reveal the Fox Day magic (optional)
+                    </label>
+                </div>
+                
+                <button type="submit" class="submit-button">Register for Fox Day! 🦊</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>🦊 Keep the Fox Day spirit alive! 🦊</p>
+        <p>&copy; 2026 Rollins College - CMS 375</p>
+    </footer>
+</body>
+</html>
