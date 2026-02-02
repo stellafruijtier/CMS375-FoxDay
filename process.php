@@ -120,7 +120,7 @@
     
     <footer>
         <p>🦊 Keep the Fox Day spirit alive! 🦊</p>
-        <p>&copy; 2026 Rollins College - CMS 375</p>
+        <p>Rollins College - CMS 375</p>
     </footer>
 </body>
 </html>
