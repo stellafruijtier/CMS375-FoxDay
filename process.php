@@ -119,7 +119,7 @@
     </main>
     
     <footer>
-        <p>🦊 Keep the Fox Day spirit alive! 🦊</p>
+        <p>🦊 Trust the fox 🦊</p>
         <p>Rollins College - CMS 375</p>
     </footer>
 </body>

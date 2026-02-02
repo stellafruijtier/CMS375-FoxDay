@@ -9,7 +9,7 @@
 <body>
     <header>
         <h1>🦊 Fox Day Events</h1>
-        <p class="fox-message">Discover the amazing adventures waiting for you!</p>
+        <p class="fox-message">Accio adventure! See which magical Fox Day events await you!</p>
     </header>
     
     <main>
@@ -67,8 +67,8 @@
     </main>
     
     <footer>
-        <p>🦊 Keep the Fox Day spirit alive! 🦊</p>
-        <p>&copy; 2026 Rollins College - CMS 375</p>
+        <p>🦊 Trust the fox 🦊</p>
+        <p>Rollins College - CMS 375</p>
     </footer>
 </body>
 </html>
