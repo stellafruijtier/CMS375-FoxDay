@@ -85,15 +85,9 @@ main {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
-    transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.nav-button:hover {
-    background: #e6b100;
-    transform: translateY(-2px);
-    box-shadow: 0 0 14px rgba(255, 197, 0, 0.45), 0 4px 10px rgba(0, 0, 0, 0.25);
-}
 
 .page-nav {
     margin-bottom: 2rem;
@@ -191,6 +185,7 @@ main {
     font-family: inherit;
     transition: border-color 0.3s, box-shadow 0.2s;
     background: #fffdf7;
+    resize: none;
 }
 
 .form-group input[type="text"]:focus,
@@ -246,15 +241,9 @@ main {
     font-size: 1.1rem;
     font-weight: bold;
     cursor: pointer;
-    transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.submit-button:hover {
-    background: #e6b100;
-    transform: translateY(-2px);
-    box-shadow: 0 0 14px rgba(255, 197, 0, 0.45), 0 4px 10px rgba(0, 0, 0, 0.25);
-}
 
 /* Process/Confirmation Page */
 .confirmation-message {
