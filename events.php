@@ -25,25 +25,25 @@
             $events = [
                 [
                     'title' => 'Chamber of Secrets Escape Challenge',
-                    'date_time' => 'April 15, 2026 at 9:00 AM',
+                    'date_time' => '9:00 AM',
                     'location' => 'Knowles Memorial Chapel',
                     'description' => 'Solve riddles and puzzles to escape the Chamber of Secrets. The first to escape wins a prize!'
                 ],
                 [
                     'title' => 'The Fox\'s Horcrux Hunt',
-                    'date_time' => 'April 15, 2026 at 12:00 PM',
+                    'date_time' => '12:00 PM',
                     'location' => 'Starting at the Alfond Sports Center',
                     'description' => 'Find the Fox\'s Horcrux hidden on campus, the first to find it wins a prize!'
                 ],
                 [
                     'title' => 'Defense against the Dark Fox',
-                    'date_time' => 'April 15, 2026 at 2:00 PM',
+                    'date_time' => '2:00 PM',
                     'location' => 'Starting at Olin Library',
                     'description' => 'Defend the campus from the Dark Fox, fast mini-games and riddles to protect Fox Day surprise from the Dark Fox!'
                 ],
                 [
                     'title' => 'Quidditch Tournament on Mills',
-                    'date_time' => 'April 15, 2026 at 11:00 AM - 4:00 PM',
+                    'date_time' => '4:00 PM',
                     'location' => 'Mills Lawn',
                     'description' => 'Play Quidditch on Mills Lawn, tournament style with prizes for the winners!'
                 ]
