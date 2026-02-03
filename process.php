@@ -21,7 +21,7 @@
         $message = isset($_POST['message']) ? trim($_POST['message']) : '';
         $secret_promise = isset($_POST['secret_promise']) ? $_POST['secret_promise'] : '';
         
-        // Validate required fields
+        // validate required fields
         $errors = [];
         
         if (empty($student_name)) {
@@ -42,7 +42,7 @@
             $errors[] = "Please select a house.";
         }
         
-        // If field is missing, show error message
+        // if field missing, show error message
         if (!empty($errors)) {
             echo '<div class="error-message">';
             echo '<h2>⚠️ Registration Error</h2>';
@@ -55,7 +55,7 @@
             echo '<p><a href="register.html" class="back-link">← Return to Registration Form</a></p>';
             echo '</div>';
         } else {
-            // If all required fields are present, display confirmation
+            // if all required fields are present, show confirmation
             echo '<div class="confirmation-message">';
             echo '<h2>🎉 Welcome to Fox Day! Your adventure is booked! 🦊</h2>';
             echo '<p class="confirmation-intro">We\'re so excited to have you join us! Here are your registration details:</p>';
@@ -95,7 +95,7 @@
             
             echo '</div>';
             
-            // Message based on selected event
+            // message based on selected event
             $event_messages = [
                 'Chamber of Secrets Escape Challenge' => 'Get ready for an adventure! Make sure to arrive on time at Knowles Memorial Chapel.',
                 'The Fox\'s Horcrux Hunt' => 'Get ready to hunt for the Fox\'s Horcrux! Make sure to arrive on time at the Alfond Sports Center.',
